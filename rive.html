@@ -10,12 +10,12 @@
     <canvas id="canvas" width="500" height="500"></canvas>
     <script>
         const r = new rive.Rive({
-            src: "meaning of life.riv",
+            src: "meaning_of_life.riv",
             canvas: document.getElementByld("canvas"),
             stateMachines: "State Machine 1",
             autoplay: true,
             onload(){
-                r.resizeDrawingMethodToCanvas()
+                r.resizeDrawingSurfaceToCanvas();
             }    
         });
     </script>
