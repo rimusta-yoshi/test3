@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com@rive-app/canvas@v2.17.3"></script>
+</head>
+<body>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <script>
+        const r = new rive.Rive({
+            src: "meaning of life.riv",
+            canvas: document.getElementByld("canvas"),
+            stateMachines: "State Machine 1",
+            autoplay: true,
+            onload(){
+                r.resizeDrawingMethodToCanvas()
+            }    
+        });
+    </script>
+</body>
+</html>
